@@ -1,0 +1,54 @@
+# Python bytecode and tool caches (all directories)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets.yaml
+secrets.yml
+*.pem
+*.key
+
+# Runtime logs, scratch work, and generated outputs
+*.log
+logs/
+work/
+outputs/
+.gameday-state*.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.settings/
+.project
+.pydevproject
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
